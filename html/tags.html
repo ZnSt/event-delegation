@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .tags {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        outline: 2px solid tomato;
+      }
+
+      .tags__item {
+        padding: 10px;
+        outline: 1px solid green;
+      }
+      .tags__btn {
+        margin-right: 10px;
+      }
+
+      .tags__btn--active {
+        color: #fff;
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <p><a href="/index.html">На главную</a></p>
+    <ul class="tags js-tags">
+      <li class="tags__item"><button class="tags__btn" data-value="html">#html</button></li>
+      <li class="tags__item"><button class="tags__btn" data-value="css">#css</button></li>
+      <li class="tags__item">
+        <button class="tags__btn" data-value="javascript">#javascript</button>
+      </li>
+      <li class="tags__item"><button class="tags__btn" data-value="npm">#npm</button></li>
+      <li class="tags__item"><button class="tags__btn" data-value="webpack">#webpack</button></li>
+      <li class="tags__item"><button class="tags__btn" data-value="react">#react</button></li>
+      <li class="tags__item"><button class="tags__btn" data-value="redux">#redux</button></li>
+      <li class="tags__item"><button class="tags__btn" data-value="nodejs">#nodejs</button></li>
+    </ul>
+    <script src="/js/tags.js" type="module"></script>
+  </body>
+</html>
