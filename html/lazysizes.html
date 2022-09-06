@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <style>
+      .list {
+        list-style: none;
+      }
+
+      .list img {
+        transform: translateX(-50);
+        opacity: 0;
+        transition: all 500ms linear;
+        width: 540px;
+        height: 480px;
+        object-fit: cover;
+      }
+
+      .list img.appear {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    </style>
+    <p><a href="/index.html">На главную</a></p>
+
+    <ul class="list">
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2022/08/21/21/24/blackandwhite-7402145_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2022/01/28/09/26/azadi-tower-6974106_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2022/03/31/15/04/observation-deck-7103210_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2019/11/14/16/01/landscape-4626489_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2022/07/29/19/11/mountains-7352448_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2018/05/03/06/19/jaguar-3370498_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2018/01/29/19/42/city-3116989_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2020/07/14/16/18/snow-5404785_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2022/07/30/04/46/sunrise-7353034_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+      <li class="list__item">
+        <img
+          loading="lazy"
+          class="lazyload"
+          data-src="https://cdn.pixabay.com/photo/2022/07/27/03/23/shilouette-7347044_1280.jpg"
+          alt=""
+          width="540"
+          height="480"
+        />
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </li>
+    </ul>
+
+    <script src="/js/lazysizes.js" type="module"></script>
+  </body>
+</html>
